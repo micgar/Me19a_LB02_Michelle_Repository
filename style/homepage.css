@@ -1,0 +1,88 @@
+html,body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: lightslategray;
+    background-size: cover;
+    margin:0;
+    padding:0;
+    height: 100%;
+}
+
+header{
+    background: #2b4057;
+    padding:60px;
+    top: 0;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.flex{
+    display: flex;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    opacity: 90%;
+
+}
+
+footer{
+    background: #2b4057;
+    padding:40px;
+    bottom: 0;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+}
+
+body.main {
+    margin: 0;
+    width: 100%;
+    display: block;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    position: center;
+    padding-top: 250px;
+    object-position: center;
+}
+ h3{
+     text-align: center;
+     font-size: 30px;
+ }
+
+h2{
+    text-align: center;
+    font-size: 25px;
+}
+main.mainflex{
+    color: #16222d;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    position: center;
+    padding-top: 330px;
+}
+
+button{
+    cursor: pointer;
+    background-color: #2d3b49;
+    border: 2px solid #b6bec9;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 19px;
+    font-style: oblique;
+    margin: 20px 843px;
+    padding: 10px 60px;
+    width: 13%;
+}

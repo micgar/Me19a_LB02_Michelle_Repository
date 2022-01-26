@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style/input-form.css" />
+    <title>Contact Validator</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="form" class="form">
+        <h2>Your feedback</h2>
+        <div class="form-control">
+          <label for="firstName">Firstname</label>
+          <input type="text" id="firstName" placeholder="Enter your firstname" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="surname">Surname</label>
+          <input type="text" id="surname" placeholder="Enter your surname" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="date">Date</label>
+          <input type="text" id="date" placeholder="00.00.0000" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="Enter email" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="country">Country</label>
+          <input type="text" id="country" placeholder="Enter the country you live in" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="canton">Canton</label>
+          <input type="text" id="canton" placeholder="Enter the canton you live in" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="postalcode">Postalcode</label>
+          <input type="text" id="postalcode" placeholder="Enter the postalcode from your canton" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="feedback">Your feedback</label>
+          <input type="text" id="feedback" placeholder="My opinion.." />
+          <small>Error message</small>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <script src="script/validate-inputs.js"></script>
+    <script src="script/network.js"></script>
+  </body>
+</html>
